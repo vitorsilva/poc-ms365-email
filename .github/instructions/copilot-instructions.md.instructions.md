@@ -18,6 +18,11 @@ applyTo: '**'
 - Implement error handling where necessary, using try-catch blocks or similar mechanisms.   
 - Ensure that error messages are clear and informative.
 
+# Technology Stack
+- C#
+- whenever possible use .NET Core for cross-platform compatibility.
+- you can use the context 7 mcp for information
+
 # Testing
 - Write unit tests for critical functions and components.  
 - Ensure tests cover edge cases and potential failure points.
