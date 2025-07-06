@@ -30,7 +30,7 @@ the prd is located at prd-email-integration-console.md
 ---
 
 ## 2. Configuration Management
-2.1. Remember that for each new task or feature, create a new Git branch named after the task (e.g., `feature/configuration-helper`).
+2.1. Remember that for each new task or feature, create a new Git branch named after the task (e.g., `feature/configuration-helper`). Also remember to ask if you can go to the next subtask. commit everytime you end a subtask
 2.2. Implement `ConfigurationHelper` in `Utilities/` to load settings from `appsettings.json`.
 2.3. Create unit tests for `ConfigurationHelper` to verify it loads settings correctly.
 2.4. Test configuration loading manually by printing values to the console.
