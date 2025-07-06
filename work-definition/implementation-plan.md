@@ -41,15 +41,18 @@ the prd is located at prd-email-integration-console.md
 ---
 
 ## 3. Authentication
+NOTE: ALWAYS make sure there are no pending changes to be commited before starting a new subtasks, if there are commit them first
+NOTE: ALWAYS ask before starting a new subtask
 3.1. Remember that for each new task or feature, create a new Git branch named after the task (e.g., `feature/configuration-helper`).
-3.2. Implement `AuthenticationService` to handle OAuth 2.0 login using MSAL.
-3.3. Implement token cache storage in the user profile directory.
-3.4. Implement silent token acquisition and token refresh logic.
-3.5. Create unit tests with mocked authentication responses.
-3.6. Add error handling for authentication failures.
-3.7. Document the authentication flow and service methods.
-3.8. Test login and logout flows manually.
-3.9. Commit with a meaningful message and open a pull request when the task is complete. Merge to main after review.
+3.2 create a settings.app where i can put my credentials for development purposes and add it to git.ignore
+3.3. Implement `AuthenticationService` to handle OAuth 2.0 login using MSAL.
+3.4. Implement token cache storage in the user profile directory.
+3.5. Implement silent token acquisition and token refresh logic.
+3.6. Create unit tests with mocked authentication responses.
+3.7. Add error handling for authentication failures.
+3.8. Document the authentication flow and service methods.
+3.9. Test login and logout flows manually.
+3.10. Commit with a meaningful message and open a pull request when the task is complete. Merge to main after review.
 
 ---
 
